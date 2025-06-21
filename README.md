@@ -46,7 +46,7 @@ PRUEBA TECNICA/
 
 ## 🛠️ Instalación y Configuración
 
-### Prerrequisitos
+### Pre requisitos
 
 - Node.js (v18 o superior)
 - PostgreSQL
@@ -67,22 +67,33 @@ npm install
 # Crear archivo .env en backend/
 DATABASE_HOST=localhost
 DATABASE_PORT=5432
-DATABASE_USERNAME=tu_usuario
-DATABASE_PASSWORD=tu_password
+DATABASE_USERNAME=tu_usuario (sin username)
+DATABASE_PASSWORD=tu_password (sin password)
 DATABASE_NAME=medicos_db
+# Configuraciones Generales
+PORT= 8000
+PREFIX=api
+NODE_ENV=development
+# URL FRONTEND
+FRONTEND_URL=http://localhost:5173
 ```
 
 3. **Ejecutar migraciones y seeders:**
 
 ```bash
-npm run migration:run
-npm run seed:run
+npm run seed
 ```
 
 4. **Iniciar servidor de desarrollo:**
 
 ```bash
 npm run start:dev
+```
+
+5. **Documentación de los endpoints SWAGGER:**
+
+```bash
+http://localhost:8000/api/swagger
 ```
 
 ### Frontend
@@ -121,19 +132,11 @@ npm run dev
 - ✅ Manejo de errores
 - ✅ Estados de carga
 
-### 🔄 En Desarrollo
-
-- 🔄 Autenticación de usuarios
-- 🔄 CRUD completo de médicos
-- 🔄 Exportación de datos
-- 🔄 Dashboard con estadísticas
-
 ## 📊 API Endpoints
 
 ### Médicos
 
 - `GET /doctor` - Obtener lista de médicos con paginación
-- `GET /doctor/:id` - Obtener médico por ID
 
 ### Regiones
 
@@ -152,39 +155,10 @@ npm run dev
 - **Manejo de errores** elegante
 - **Estados de carga** informativos
 
-## 🚀 Despliegue
+## 📃 Documentación word solicitada en el ejercicio
 
-### Frontend (Vercel/Netlify)
-
-```bash
-cd frontend
-npm run build
-```
-
-### Backend (Railway/Render)
-
-```bash
-cd backend
-npm run build
-npm start
-```
-
-## 🤝 Contribución
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📝 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
+https://docs.google.com/document/d/1U7jpvn0-d4jvA3Ff7uqcB48dH5hX5tCd/edit?usp=sharing&ouid=107420201254208484172&rtpof=true&sd=true
 
 ## 👨‍💻 Autor
 
 **Johan Meza** - [GitHub](https://github.com/johanmeza06)
-
----
-
-⭐ Si este proyecto te ayuda, ¡dale una estrella!
