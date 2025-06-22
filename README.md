@@ -159,6 +159,10 @@ npm run dev
 
 https://docs.google.com/document/d/1U7jpvn0-d4jvA3Ff7uqcB48dH5hX5tCd/edit?usp=sharing&ouid=107420201254208484172&rtpof=true&sd=true
 
+## 📃 DB excel corregida
+
+https://docs.google.com/spreadsheets/d/1B7k2QwXlnkfB347ko0baZA1TtqawR3KT/edit?usp=sharing&ouid=107420201254208484172&rtpof=true&sd=true
+
 ## 👨‍💻 Autor
 
 **Johan Meza** - [GitHub](https://github.com/johanmeza06)
