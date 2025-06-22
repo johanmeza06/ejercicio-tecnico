@@ -21,7 +21,6 @@ Aplicación web completa para la gestión y búsqueda de médicos, desarrollada 
 - **TypeScript** - Tipado estático
 - **PostgreSQL** - Base de datos
 - **Sequelize** - ORM
-- **JWT** - Autenticación
 
 ## 📁 Estructura del Proyecto
 
