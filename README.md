@@ -65,16 +65,16 @@ npm install
 
 ```bash
 # Crear archivo .env en backend/
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-DATABASE_USERNAME=tu_usuario (sin username)
-DATABASE_PASSWORD=tu_password (sin password)
-DATABASE_NAME=medicos_db
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_USERNAME=
+DB_PASSWORD=
+DB_NAME=prueba_tecnica
 # Configuraciones Generales
 PORT= 8000
 PREFIX=api
 NODE_ENV=development
-# URL FRONTEND
+#URL FRONTEND
 FRONTEND_URL=http://localhost:5173
 ```
 
