@@ -61,11 +61,11 @@ export class FindAllDoctorDto {
     items: {
       type: 'object',
       properties: {
-        column: { type: 'string', example: 'nombre' },
+        selector: { type: 'string', example: 'nombre' },
         desc: { type: 'boolean', example: false },
       },
     },
-    example: [[{ column: 'nombre', desc: false }]],
+    example: [[{ selector: 'nombre', desc: false }]],
   })
   @IsOptional()
   @IsArray()
